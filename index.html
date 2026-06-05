@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Happy Birthday Waheed Ahmad 💖</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Dancing+Script:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- Floating petals -->
+<div class="petals-container" id="petalsContainer"></div>
+
+<!-- Background hearts -->
+<div class="hearts-bg" id="heartsBg"></div>
+
+<!-- Fireworks canvas -->
+<canvas id="fireworks-canvas"></canvas>
+
+<!-- +----------------------+ -->
+<!--       HERO SECTION      -->
+<!-- +----------------------+ -->
+<section id="hero">
+  <div class="hero-ornament">✦ ✦ ✦</div>
+  <p class="hero-tagline">A celebration made with care and admiration</p>
+  <h1 class="hero-name">Happy Birthday<br><span>Waheed</span></h1>
+  <p class="hero-subtitle">Ahmad 💖</p>
+  <div class="hero-divider"><span class="hero-divider-icon">🌹</span></div>
+  <p class="hero-date">Today, Every Moment is Yours</p>
+  <div class="scroll-cta" onclick="document.getElementById('roses').scrollIntoView({behavior:'smooth'})">
+    <span>Scroll down</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- +----------------------+ -->
+<!--    QUALITIES TO CELEBRATE       -->
+<!-- +----------------------+ -->
+<section id="roses" class="section">
+  <p class="section-label">✨ With All My Heart ✨</p>
+  <h2 class="section-title">Qualities We <em>Celebrate</em></h2>
+  <div class="roses-grid">
+    <div class="rose-card">
+      <span class="rose-emoji">🌹</span>
+      <span class="rose-word">Your Smile</span>
+      <span class="rose-desc">The way you smile melts every worry from my heart instantly.</span>
+    </div>
+    <div class="rose-card">
+      <span class="rose-emoji">💫</span>
+      <span class="rose-word">Your Soul</span>
+      <span class="rose-desc">Your kindness and warmth make the whole world brighter.</span>
+    </div>
+    <div class="rose-card">
+      <span class="rose-emoji">🔥</span>
+      <span class="rose-word">Your Strength</span>
+      <span class="rose-desc">You inspire me every single day to be better.</span>
+    </div>
+    <div class="rose-card">
+      <span class="rose-emoji">🌙</span>
+      <span class="rose-word">Your Presence</span>
+      <span class="rose-desc">Even silence feels magical when you're by my side.</span>
+    </div>
+    <div class="rose-card">
+      <span class="rose-emoji">💎</span>
+      <span class="rose-word">Your Heart</span>
+      <span class="rose-desc">Your sincerity and kindness make every moment brighter.</span>
+    </div>
+    <div class="rose-card">
+      <span class="rose-emoji">✨</span>
+      <span class="rose-word">Simply You</span>
+      <span class="rose-desc">Everything about you is my favorite thing in this world.</span>
+    </div>
+  </div>
+</section>
+
+<!-- +----------------------+ -->
+<!--    GALLERY / MOMENTS    -->
+<!-- +----------------------+ -->
+<section id="gallery" class="section">
+  <p class="section-label">📸 Our Story in Moments</p>
+  <h2 class="section-title">A Life Worth <em>Celebrating</em></h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="images/waheed-portrait.jpeg" alt="Waheed smiling in a black jacket and red shirt">
+      🌹
+      <div class="gallery-overlay">The day you stole my heart forever</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/waheed-outdoor.jpeg" alt="Waheed in sunglasses outdoors">
+      💖
+      <div class="gallery-overlay">Every heartbeat for you</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/waheed-formal.jpeg" alt="Waheed wearing a light blazer">
+      🌙
+      <div class="gallery-overlay">Moonlit memories</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/waheed-water.jpeg" alt="Waheed standing near the water">
+      ⭐
+      <div class="gallery-overlay">You are my star</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/waheed-portrait.jpeg" alt="Waheed smiling in a black jacket and red shirt">
+      💍
+      <div class="gallery-overlay">Our forever begins here</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/waheed-formal.jpeg" alt="Waheed wearing a light blazer">
+      🕊️
+      <div class="gallery-overlay">With admiration, always</div>
+    </div>
+  </div>
+</section>
+
+<!-- +----------------------+ -->
+<!--       COUNTDOWN         -->
+<!-- +----------------------+ -->
+<section id="cake" class="section">
+  <p class="section-label">🎂 Sweetest Celebration</p>
+  <h2 class="section-title">A Cake for <em>Waheed</em></h2>
+  <div class="cake-stage">
+    <div class="cake-photo p1"><img src="images/waheed-portrait.jpeg" alt="Waheed birthday memory"></div>
+    <div class="cake-photo p2"><img src="images/waheed-outdoor.jpeg" alt="Waheed birthday memory"></div>
+    <div class="cake-photo p3"><img src="images/waheed-formal.jpeg" alt="Waheed birthday memory"></div>
+    <div class="cake-photo p4"><img src="images/waheed-water.jpeg" alt="Waheed birthday memory"></div>
+    <div class="birthday-cake" aria-label="Birthday cake for Waheed">
+      <div class="candle one"></div>
+      <div class="candle two"></div>
+      <div class="candle three"></div>
+      <div class="cake-layer top"></div>
+      <div class="cake-layer middle"></div>
+      <div class="cake-layer bottom"></div>
+      <div class="cake-name">Waheed</div>
+    </div>
+  </div>
+</section>
+
+<section id="countdown-section" class="section">
+  <p class="section-label">⏳ Counting Every Second with You</p>
+  <h2 class="section-title">Birthday Starts <em>at Midnight</em></h2>
+  <div class="countdown-grid">
+    <div class="count-box">
+      <span class="count-num" id="cd-days">00</span>
+      <span class="count-label">Days</span>
+    </div>
+    <div class="count-box">
+      <span class="count-num" id="cd-hours">00</span>
+      <span class="count-label">Hours</span>
+    </div>
+    <div class="count-box">
+      <span class="count-num" id="cd-mins">00</span>
+      <span class="count-label">Minutes</span>
+    </div>
+    <div class="count-box">
+      <span class="count-num" id="cd-secs">00</span>
+      <span class="count-label">Seconds</span>
+    </div>
+  </div>
+  <p id="countdown-note" style="margin-top:2rem;font-family:'Dancing Script',cursive;font-size:1.2rem;color:var(--rose-light);">Until June 6 at 12:00 AM, when your birthday begins 🌹</p>
+</section>
+
+<!-- +----------------------+ -->
+<!--       PERSONAL LETTER       -->
+<!-- +----------------------+ -->
+<section id="letter" class="section">
+  <p class="section-label">💌 Written from the Deepest Place</p>
+  <h2 class="section-title">A Letter from <em>My Heart</em></h2>
+  <button class="letter-open-btn" id="letterOpenBtn" type="button" onclick="openPersonalLetter()" aria-controls="personalLetter" aria-expanded="false">💌</button>
+  <p class="letter-hint">Click the letter</p>
+  <div class="letter-wrapper" id="personalLetter">
+    <p class="letter-date" id="letter-date"></p>
+    <p class="letter-salutation">My Dearest Waheed,</p>
+    <div class="letter-body">
+      <p>On this special day, I want to celebrate the person you are and the happiness your presence brings to the people around you.</p>
+      <p>You carry yourself with warmth, patience, and quiet strength. Your smile, your character, and your thoughtful nature make you truly unforgettable.</p>
+      <p>May this birthday bring you success, peace, confidence, and countless reasons to smile. You deserve a year filled with meaningful moments and beautiful achievements.</p>
+      <p>Today is yours, Waheed. May every prayer be answered, every goal move closer, and every new chapter bring you pride and joy.</p>
+      <p>Happy birthday to a wonderful person with a bright future ahead.</p>
+    </div>
+    <div class="letter-closing">
+      Forever yours,<br>
+      with sincere wishes and endless respect 💖
+    </div>
+    <div class="letter-signature">
+      — Your Future Wife Namra 🌹
+    </div>
+    <div class="letter-seal">💍 🌹 💖</div>
+  </div>
+</section>
+
+<!-- +----------------------+ -->
+<!--      BIRTHDAY WISH      -->
+<!-- +----------------------+ -->
+<section id="wish" class="section">
+  <div class="wish-emoji-row">🎂 🌹 🎉 💖 ✨</div>
+  <h2 class="wish-main">Happy<br><span>Birthday</span></h2>
+  <p class="wish-name">Waheed Ahmad 💖</p>
+  <p class="wish-from">
+    May every dream you carry bloom into reality,<br>
+    may every prayer be answered, every wish granted,<br>
+    and may this year be the most beautiful chapter of your life.<br><br>
+    <strong>Happy Birthday from your Future Wife Namra</strong>
+  </p>
+  <button class="heart-btn" id="celebrateBtn" type="button">
+    🎉 Celebrate with Me!
+  </button>
+</section>
+
+<footer>
+  Made with 💖 &nbsp;|&nbsp; For the most wonderful man in the world &nbsp;|&nbsp; Waheed Ahmad 🌹
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
